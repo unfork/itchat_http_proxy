@@ -1,5 +1,5 @@
 # itchat_http_proxy
-by gpt
+by chatgpt
 
 使用python itchat库提供微信服务，收到消息转发到配置的http地址，并使用flask提供一个http服务接收外部请求，并把内容转发给itchat发送出去，设计一个这样的项目架构，多文件的命名
 
@@ -13,6 +13,9 @@ by gpt
 
 4. config.py：配置文件，负责存储一些配置信息，比如http地址等
 
+
+数据格式：
+目前使用可爱猫(keaimao)的数据格式
 
 运行方法：
 
