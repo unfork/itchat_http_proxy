@@ -1,0 +1,11 @@
+.DS_Store
+.idea
+.vscode
+__pycache__/
+*.log
+*.pyc
+QR.png
+nohup.out
+plugins.json
+itchat.pkl
+/static
