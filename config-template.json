@@ -1,8 +1,0 @@
-{
-    "host": "127.0.0.1",
-    "port": "7000",
-    "debug": true,
-    "static_path": "static",
-    "hot_reload": true,
-    "callback_url": "http://127.0.0.1:8899/push",
-}
