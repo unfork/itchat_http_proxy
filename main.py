@@ -9,7 +9,7 @@ def main():
     threading.Thread(target=start_itchat).start()
 
     # 启动http服务
-    threading.Thread(target=start_http_server, args=(Config().server_host, Config().server_port)).start()
+    threading.Thread(target=start_http_server, args=(Config().host, Config().port)).start()
 
 if __name__ == '__main__':
     main()

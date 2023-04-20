@@ -22,7 +22,7 @@ def download_files(msg):
         return
 
     #print("%s" % msg)
-    msg.download("static/" + msg.fileName)
+    msg.download(Config().static_path + "/" + msg.fileName)
     typeSymbol = {PICTURE: 'img', VIDEO: 'vid'}.get(msg.type, 'fil')
 
     return '@%s@%s' % (typeSymbol, msg.fileName)

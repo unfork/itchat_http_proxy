@@ -1,8 +1,9 @@
 from flask import Flask, request
 from itchat_helper import send_message
+from config import Config
 import json
 
-app = Flask(__name__, static_folder='static')
+app = Flask(__name__, static_folder=Config().static_path)
 @app.route('/')
 def index():
     return 'Hello World!'

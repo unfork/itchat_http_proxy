@@ -7,7 +7,8 @@ class Config(object):
         'port': '7788',
         'debug': True,
         'static_path': 'static',
-        'hot_reload': True
+        'hot_reload': True,
+        "callback_url": "http://127.0.0.1:8899/push",
     }
 
     def __init__(self, config_file='config.json'):
