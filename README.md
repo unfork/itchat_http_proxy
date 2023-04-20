@@ -14,5 +14,5 @@ by gpt
 4. config.py：配置文件，负责存储一些配置信息，比如http地址等
 
 
-run script
+运行方法:
 python3 main.py
